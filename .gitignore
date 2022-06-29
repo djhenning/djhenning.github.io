@@ -6,6 +6,13 @@ _site
 .DS_store
 .ruby-version
 .tweet-cache
+.tex
+.aux
+.fls
+.log
+.out
+.synctex.gz
+.fdb_latexmk
 Gemfile.lock
 vendor
 
