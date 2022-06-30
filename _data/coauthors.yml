@@ -1,18 +1,15 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Hjort":
+  - firstname: ["Jonas", "J."]
+    url: https://sites.google.com/site/jonashjort/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Knebelmann":
+  - firstname: ["Justine", "J."]
+    url: https://sites.google.com/view/justine-knebelmann/home
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Tian":
+  - firstname: ["Lin", "L."]
+    url: https://lin-tian.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Almunia":
+  - firstname: ["Miguel", "M."]
+    url: https://malmunia.github.io/
