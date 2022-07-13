@@ -35,9 +35,7 @@ layout: default
 
           {% if page.news -%}
           <!-- News -->
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- include news.html %}
-          </div>
+          {%- include news.html %}
           {%- endif %}
           {% if page.selected_papers -%}
             <!-- Selected papers -->
