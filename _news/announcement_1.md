@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-07-13
 inline: true
 ---
-
-A simple inline announcement.
+I will be spending the next couple of months travelling between Lusaka and Kampala. Get in touch if you are around!
