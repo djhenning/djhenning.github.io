@@ -18,3 +18,6 @@ In my research I study various topics in development and public economics.
 I received my bachelor in Economics, Politics and International Studies at [Warwick University](https://warwick.ac.uk/fac/soc/economics/), and had the privilege to complete my high school at [UWCAd](https://www.uwcad.it/).
 
 Please do not hesitate to get in touch: [djhenning@ucla.edu](mailto:djhenning@g.ucla.edu)
+
+
+Some information that should be longer than the margin identified by the picture!
