@@ -15,6 +15,7 @@ hr {
 table {
     td, th {
       color: var(--global-text-color);
+      width: 30%;
     }
     td {
       font-size: 1rem;
@@ -117,7 +118,7 @@ blockquote {
 }
 
 .post-description {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; 
   font-size: 0.875rem;
   a {
     color: inherit;
