@@ -29,15 +29,13 @@ layout: default
           </div>
           {%- endif %}
 
-          <!-- <div class="clearfix"> -->
+          <div class="clearfix">
             {{ content }}
-          <!-- </div> -->
+          </div>
 
           {% if page.news -%}
           <!-- News -->
-          <div class="clearfix">
             {%- include news.html %}
-          </div>
           {%- endif %}
           {% if page.selected_papers -%}
             <!-- Selected papers -->
