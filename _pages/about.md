@@ -11,7 +11,7 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-Hi! I am a third year PhD student in economics at UCLA, and a student affiliate at CCPR. My studies are supported by Norges Bank's PhD scholarship program.
+Hi! I am a fourth year PhD student in economics at UCLA, and a student affiliate at CCPR. My studies are supported by Norges Bank's PhD scholarship program.
 
 In my research I study various topics in development and public economics.
 
