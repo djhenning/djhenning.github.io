@@ -7,10 +7,9 @@
       {{reference}}
     {%- else %}
       <!-- Title -->
-      <div class="title">{{entry.title}} <span> {{entry.announcement}} </span></div>
+      <div class="title"><a href="{{entry.url}}">{{entry.title}}</a> <span> {{entry.announcement}} </span></div>
       <!-- Announcement -->
-      
-      <!-- <a href="{{entry.url}}">{{entry.title}}</a> add to the above later on -->
+      <!-- <a href="{{entry.url}}">{{entry.title}}</a> -->
       <!-- Author -->
       <div class="author">
       {%- for author in entry.author_array -%}
