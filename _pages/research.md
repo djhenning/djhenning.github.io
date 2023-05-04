@@ -9,13 +9,13 @@ nav_order: 2
 ---
 <!-- _pages/publications.md -->
 
+#### Working Papers
+
 <div class="publications">
 
     {% bibliography -f papers %}
 
 </div>
-
-#### Selected work in progress
 
 <div class="unpublished">
 
