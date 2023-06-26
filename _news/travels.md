@@ -2,4 +2,4 @@
 inline: true
 layout: post
 ---
-Currently in LA!
+Currently in Norway!
