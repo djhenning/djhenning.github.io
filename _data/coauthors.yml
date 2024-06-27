@@ -13,3 +13,15 @@
 "Almunia":
   - firstname: ["Miguel", "M."]
     url: https://malmunia.github.io/
+
+"Bau":
+  - firstname: ["Natalie", "N."]
+    url: https://sites.google.com/site/nataliebau/
+
+"Steinberg":
+  - firstname: ["Bryce Millet", "B. M."]
+    url: https://sites.google.com/a/brown.edu/bmsteinberg/home?authuser=0
+
+"Low":
+  - firstname: ["Corinne", "C."]
+    url: https://corinnelow.github.io/
