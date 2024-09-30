@@ -7,7 +7,6 @@ years: [2023]
 nav: true
 nav_order: 2
 ---
-<!-- _pages/publications.md -->
 
 #### Working Papers
 
@@ -17,12 +16,5 @@ nav_order: 2
 
 </div>
 
-<!-- <div class="unpublished">
-
-{%- for y in page.years %}
-  {% bibliography -f workingpapers -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div> -->
 
 #### Selected work in progress
