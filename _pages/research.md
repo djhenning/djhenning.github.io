@@ -16,6 +16,6 @@ nav_order: 2
 <br>
 
 #### Selected work in progress
-<div class="publications">
+<div class="unpublished">
     {% bibliography -f workinprogress %}
 </div>
