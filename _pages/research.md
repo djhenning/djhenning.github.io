@@ -11,18 +11,18 @@ nav_order: 2
 
 #### Working Papers
 
-<!-- <div class="publications">
+<div class="publications">
 
     {% bibliography -f workingpapers %}
 
-</div> -->
+</div>
 
-<div class="unpublished">
+<!-- <div class="unpublished">
 
 {%- for y in page.years %}
   {% bibliography -f workingpapers -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div> -->
 
 #### Selected work in progress
