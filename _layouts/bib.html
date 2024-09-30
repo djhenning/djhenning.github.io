@@ -5,6 +5,7 @@
     <div id="{{entry.key}}" class="tab">
     {% if entry.type == "thesis" -%}
       {{reference}}
+      
     {%- elsif entry.type == "unpublished" %}
       <div class="title">{{entry.title}} <span> {{entry.announcement}} </span></div>
       <!-- Announcement -->
@@ -27,7 +28,49 @@
             {%- endif -%}
           {%- endfor -%}
         {%- endif -%}
-    {%- elsif entry.type != "unpublished" %}
+
+          {%- if forloop.length == 1 -%}
+          {%- if author_is_self %}
+            <em>{{author.last}}, {{author.first}}</em>
+          {%- else -%}
+            {{author.first}} {{author.last}}
+          {%- endif -%}
+        {%- else -%}
+          {%- unless forloop.last -%}
+            {% if author_is_self %}
+              {{ "with" }}&nbsp;
+            {%- else -%}
+              {% if coauthor_url -%}
+                {%- if forloop.length == 3  -%}
+                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>&nbsp;
+                {%- else -%}
+                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                {%- endif -%}
+              {%- else -%}
+                {{author.first}} {{author.last}},&nbsp;
+              {%- endif -%}
+            {%- endif -%}
+          {%- else -%}
+            {% if author_is_self -%}
+              and <em>{{author.last}}, {{author.first}}</em>
+            {% else -%}
+              {%- if coauthor_url -%}
+                {%- if forloop.length == 2 -%}
+                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                {%- endif -%} 
+                {%- if forloop.length >= 3  -%}
+                  and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                {%- endif -%} 
+              {% else -%}
+                and {{author.first}} {{author.last}}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endfor %}
+      </div>
+      
+    {%- else %}
       <!-- Title -->
       <div class="title"><a href="{{entry.url}}">{{entry.title}}</a> <span> {{entry.announcement}} </span></div>
       <!-- Announcement -->
