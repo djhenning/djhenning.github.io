@@ -10,7 +10,7 @@ nav_order: 2
 
 #### Working Papers
 
-<div class="workingpapers">
+<div class="publications">
 
     {% bibliography -f workingpapers %}
 
