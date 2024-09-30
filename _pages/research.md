@@ -17,10 +17,12 @@ nav_order: 2
 
 </div>
 
-<!-- <div class="unpublished">
+<div class="unpublished">
 
 {%- for y in page.years %}
   {% bibliography -f workingpapers -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div> -->
+</div>
+
+#### Selected work in progress
