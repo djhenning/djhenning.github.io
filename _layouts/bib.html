@@ -5,7 +5,7 @@
     <div id="{{entry.key}}" class="tab">
     {% if entry.type == "thesis" -%}
       {{reference}}
-    {%- else %}
+    {%- elsif entry.type != "unpublished" %}
       <!-- Title -->
       <div class="title"><a href="{{entry.url}}">{{entry.title}}</a> <span> {{entry.announcement}} </span></div>
       <!-- Announcement -->
