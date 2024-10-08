@@ -178,6 +178,9 @@
       {%- if entry.html %}
         <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
       {%- endif %}
+      {%- if entry.status %}
+        <a >{{entry.status}}</a>
+      {%- endif %}
       {%- if entry.slides %}
         {% if entry.slides contains '://' -%}
         <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">📑 Slides</a>
