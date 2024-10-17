@@ -19,4 +19,4 @@ I received my bachelor in Economics, Politics and International Studies at [Warw
 
 Please do not hesitate to get in touch: [djhenning@ucla.edu](mailto:djhenning@g.ucla.edu)
 
-<em>I am on the job market in 2024-2025 and available for interviews.</em>
+**I am on the job market in 2024-2025 and available for interviews.**
