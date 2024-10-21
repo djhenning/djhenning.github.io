@@ -17,6 +17,6 @@ My primary fields are development and public economics with a focus on firms.
 
 I received my bachelor in Economics, Politics and International Studies at [Warwick University](https://warwick.ac.uk/fac/soc/economics/), and had the privilege to complete my high school at [UWCAd](https://www.uwcad.it/).
 
-Please do not hesitate to get in touch: [djhenning@ucla.edu](mailto:djhenning@g.ucla.edu)
-
 **I am on the job market in 2024-2025 and available for interviews.**
+
+Please do not hesitate to get in touch: [djhenning@ucla.edu](mailto:djhenning@g.ucla.edu)
