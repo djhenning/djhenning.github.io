@@ -7,6 +7,7 @@ years: [2023]
 nav: true
 nav_order: 2
 ---
+
 #### Job Market Paper
 <div class="publications">
     {% bibliography -f jmp %}
