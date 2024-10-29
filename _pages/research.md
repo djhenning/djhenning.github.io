@@ -15,14 +15,14 @@ nav_order: 2
 
 <br>
 
-#### Working Papers
+#### <ins>Working Papers</ins>
 <div class="publications">
     {% bibliography -f workingpapers %}
 </div>
 
 <br>
 
-#### Selected work in progress
+#### <ins>Selected work in progress</ins>
 <div class="unpublished">
     {% bibliography -f workinprogress %}
 </div>
