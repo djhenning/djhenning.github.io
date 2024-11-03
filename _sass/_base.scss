@@ -92,7 +92,7 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 2rem;
+  margin-left: 1rem;
   width: 100%;
 
   .address {
@@ -108,7 +108,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 40%; //Changes image width in profile me thinks
+    width: 35%; //Changes image width in profile me thinks
     .address {
       p { display: block; }
     }
