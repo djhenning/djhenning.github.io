@@ -19,4 +19,6 @@ I received my bachelor in Economics, Politics and International Studies at [Warw
 
 **I am on the job market in 2024-2025 and available for interviews.**
 
+In my [Job Market Paper](https://djhenning.github.io/assets/pdf/Henning_JMP.pdf) I investigate the distortionary impact of tax audits in Uganda.
+
 Please do not hesitate to get in touch: [djhenning@ucla.edu](mailto:djhenning@g.ucla.edu)
