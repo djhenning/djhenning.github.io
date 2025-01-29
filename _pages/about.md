@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: shirt_close.jpg
+  image: DH_2_small.jpg
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
