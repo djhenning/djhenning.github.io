@@ -106,7 +106,7 @@ blockquote {
   }
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .profile {
     width: 30%; //Changes image width in profile me thinks
 
