@@ -13,7 +13,7 @@ layout: default
 
         <article>
           <hr>
-          <!-- {% if page.profile -%}
+          {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: '/assets/img/' -%}
@@ -28,8 +28,9 @@ layout: default
             </div>
             {%- endif %}
           </div>
-          {%- endif %} -->
-          {% if page.profile %}
+          {%- endif %}
+
+          <!-- {% if page.profile %}
           <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
             {% if page.profile.image %}
               {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
@@ -50,7 +51,7 @@ layout: default
               <div class="more-info">{{ page.profile.more_info }}</div>
             {% endif %}
           </div>
-        {% endif %}
+        {% endif %} -->
 
           <div class="clearfix">
             {{ content }}
