@@ -17,7 +17,7 @@ My primary fields are development and public economics with a focus on firms.
 
 I received my bachelor in Economics, Politics and International Studies at [Warwick University](https://warwick.ac.uk/fac/soc/economics/), and had the privilege to complete my high school at [UWCAd](https://www.uwcad.it/).
 
-**As of the 24th of February I am still on the 2024-2025 economic job market and available for interviews.**
+**As of the 24th of February 2025, I am still on the 2024-2025 economic job market and available for interviews.**
 
 In my **[Job Market Paper](https://djhenning.github.io/assets/pdf/Henning_JMP.pdf)** I investigate the distortionary impact of tax audits.
 
