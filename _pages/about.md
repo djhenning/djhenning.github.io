@@ -17,4 +17,4 @@ My primary fields are development and public economics with a focus on firms.
 
 I received my PhD in economics at UCLA, my bachelor in Economics, Politics and International Studies at [Warwick University](https://warwick.ac.uk/fac/soc/economics/), and had the privilege to complete my high school at [UWCAd](https://www.uwcad.it/).
 
-Please do not hesitate to get in touch: [djhenning@ucla.edu](mailto:djhenning@g.ucla.edu)
+Please do not hesitate to get in touch: [david.henning@economics.ox.ac.uk](mailto:david.henning@economics.ox.ac.uk)
