@@ -134,6 +134,12 @@
         {%- endif -%}
       {%- endfor %}
       </div>
+      <!-- Awards -->
+        {% if entry.award %}
+        <div class="award">
+          <em>{{ entry.award }}</em>
+        </div>
+      {% endif %}
 
       <!-- Journal/Book title and date -->
       {% if entry.type == "article" -%}
