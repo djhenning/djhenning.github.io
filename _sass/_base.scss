@@ -885,11 +885,11 @@ code {
   display: inline-flex;
   align-items: center;    /* vertical centering */
   justify-content: center;/* horizontal centering */
-  padding: 0.15rem 0.35rem; /* tweak so the pill isn't huge */
+  // padding: 0.15rem 0.35rem; /* tweak so the pill isn't huge */
 }
 
 .voxdev-logo {
-  height: 0.7rem;   /* your chosen size */
+  height: 1em;   /* your chosen size */
   width: auto;
   display: block;   /* removes extra inline baseline gap */
 }
