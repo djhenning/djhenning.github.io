@@ -222,12 +222,11 @@
       {%- endif %}
       {%- if entry.voxdev %}
         <!-- <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0" role="button">VoxDev Summary</a> -->
-            <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0" role="button">
-              <img src="{{ '/assets/img/voxdev.svg' | relative_url }}"
-                  alt="VoxDev"
-                  class="voxdev-logo">
-              <!-- <span class="voxdev-text">Summary</span> -->
-            </a>
+          <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0 voxdev-link" role="button">
+            <img src="{{ '/assets/img/voxdev.svg' | relative_url }}"
+                alt="VoxDev"
+                class="voxdev-logo">
+          </a>
       {%- endif %}
       {%- if entry.supp %}
         {% if entry.supp contains '://' -%}

@@ -881,12 +881,25 @@ code {
 //   // padding: 0.2rem 0.5rem;  /* tweak to match other buttons */
 // }
 
-.voxdev-logo {
-  height: 0.7rem;            /* adjust size to taste */
-  vertical-align: middle;
+.voxdev-link {
+  display: inline-flex;
+  align-items: center;    /* vertical centering */
+  justify-content: center;/* horizontal centering */
+  padding: 0.15rem 0.35rem; /* tweak so the pill isn't huge */
 }
 
-.voxdev-text {
-  line-height:  0.5rem;      /* match logo height */
-  font-size: 0.65rem;      /* slightly smaller if you like */
+.voxdev-logo {
+  height: 0.7rem;   /* your chosen size */
+  width: auto;
+  display: block;   /* removes extra inline baseline gap */
 }
+
+// .voxdev-logo {
+//   height: 0.7rem;            /* adjust size to taste */
+//   vertical-align: middle;
+// }
+
+// .voxdev-text {
+//   line-height:  0.5rem;      /* match logo height */
+//   font-size: 0.65rem;      /* slightly smaller if you like */
+// }
