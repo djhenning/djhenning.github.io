@@ -874,22 +874,20 @@ code {
   }
 }
 
-.voxdev-logo {
-  height: 1rem;    /* adjust to taste */
-  vertical-align: middle;
-}
-
 .voxdev-link {
-  padding: 0.2rem 0.4rem; /* optional, to snug around the logo */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;            /* space between logo and text */
+  padding: 0.2rem 0.5rem;  /* tweak to match other buttons */
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+.voxdev-logo {
+  height: 1rem;            /* adjust size to taste */
+  width: auto;
+  display: block;
+}
+
+.voxdev-text {
+  line-height: 1;
+  font-size: 0.85rem;      /* slightly smaller if you like */
 }
