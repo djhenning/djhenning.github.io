@@ -221,7 +221,13 @@
         <a href="{{ entry.voxeu }}" class="btn btn-sm z-depth-0" role="button">VoxEU Summary</a>
       {%- endif %}
       {%- if entry.voxdev %}
-        <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0" role="button">VoxDev Summary</a>
+        <!-- <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0" role="button">VoxDev Summary</a> -->
+          <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0 voxdev-link" role="button">
+            <img src="{{ '/assets/img/voxdev.svg' | relative_url }}"
+                alt="VoxDev summary"
+                class="voxdev-logo">
+            <span class="sr-only">VoxDev Summary</span>
+          </a>
       {%- endif %}
       {%- if entry.supp %}
         {% if entry.supp contains '://' -%}

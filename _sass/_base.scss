@@ -873,3 +873,23 @@ code {
     }
   }
 }
+
+.voxdev-logo {
+  height: 1.2rem;    /* adjust to taste */
+  vertical-align: middle;
+}
+
+.voxdev-link {
+  padding: 0.2rem 0.4rem; /* optional, to snug around the logo */
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
