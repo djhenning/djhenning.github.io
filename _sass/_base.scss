@@ -882,16 +882,17 @@ code {
 // }
 
 .voxdev-link {
-  display: inline-flex;
-  align-items: center;    /* vertical centering */
-  justify-content: center;/* horizontal centering */
+  display: inline-block;
+  // align-items: center;    /* vertical centering */
+  // justify-content: center;/* horizontal centering */
   // padding: 0.15rem 0.35rem; /* tweak so the pill isn't huge */
 }
 
 .voxdev-logo {
-  height: 1em;   /* your chosen size */
+  height: 0.9em;         // roughly text height
   width: auto;
-  display: block;   /* removes extra inline baseline gap */
+  display: inline-block;
+  vertical-align: middle; // center inside the text line
 }
 
 // .voxdev-logo {
