@@ -881,14 +881,14 @@ code {
 //   // padding: 0.2rem 0.5rem;  /* tweak to match other buttons */
 // }
 
-.voxdev-link {
+.logo-link {
   display: inline-block;
   // align-items: center;    /* vertical centering */
   // justify-content: center;/* horizontal centering */
   // padding: 0.15rem 0.35rem; /* tweak so the pill isn't huge */
 }
 
-.voxdev-logo {
+.logo {
   height: 0.9em;         // roughly text height
   width: auto;
   display: inline-block;
@@ -898,7 +898,12 @@ code {
   // top: -1px;
 }
 
-// .voxdev-logo {
+.logo-text {
+  line-height: 1;
+  font-size: 0.85rem;      /* slightly smaller if you like */
+}
+
+// .logo-text {
 //   height: 0.7rem;            /* adjust size to taste */
 //   vertical-align: middle;
 // }
