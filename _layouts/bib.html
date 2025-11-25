@@ -229,13 +229,12 @@
           </a>
       {%- endif %}
       {%- if entry.ifs %}
-        <!-- <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0" role="button">VoxDev Summary</a> -->
-          <a href="{{ entry.voxdev }}" class="btn btn-sm z-depth-0 logo-link" role="button">
-            <img src="{{ '/assets/img/ifs.png' | relative_url }}"
-                alt="ifs"
-                class="logo">
-            <span class="logo-text">Working Paper</span>
-          </a>
+        <a href="{{ entry.ifs }}" class="btn btn-sm z-depth-0 logo-link" role="button">
+          <img src="{{ '/assets/img/ifs.png' | relative_url }}"
+              alt="IFS"
+              class="logo logo-ifs">
+          <span class="logo-text">Working Paper</span>
+        </a>
       {%- endif %}
       {%- if entry.supp %}
         {% if entry.supp contains '://' -%}

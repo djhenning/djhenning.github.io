@@ -882,25 +882,26 @@ code {
 // }
 
 .logo-link {
-  display: inline-block;
-  // align-items: center;    /* vertical centering */
-  // justify-content: center;/* horizontal centering */
-  // padding: 0.15rem 0.35rem; /* tweak so the pill isn't huge */
+  display: inline-block;  // let .btn/.btn-sm control padding & height
 }
 
 .logo {
-  height: 0.9em;         // roughly text height
+  height: 0.9em;          // base logo size (e.g. VoxDev)
   width: auto;
   display: inline-block;
-  vertical-align: middle; // center inside the text line
-  // tiny tweak if it looks 1px off:
-  // position: relative;
-  // top: -1px;
+  vertical-align: middle;
 }
 
+/* IFS logo: a bit bigger than the base logo */
+.logo-ifs {
+  height: 1.1em;          // tweak this up/down to taste
+}
+
+/* “Working Paper” text: same size as other button text */
 .logo-text {
-  line-height: 1;
-  font-size: 0.85rem;      /* slightly smaller if you like */
+  font-size: inherit;     // match .btn text size (e.g. "Abstract" button)
+  line-height: inherit;
+  margin-left: 0.25rem;   // small gap between logo and text
 }
 
 // .logo-text {
