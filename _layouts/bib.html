@@ -139,6 +139,11 @@
         <div class="award">
           <em>Award: {{ entry.award }}</em>
         </div>
+        {% endif %}
+        {% if entry.rr %}
+        <div class="rr">
+          <b>Revise & Resubmit, {{ entry.rr }}</b>
+        </div>
       {% endif %}
 
       <!-- Journal/Book title and date -->
