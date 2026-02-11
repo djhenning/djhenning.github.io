@@ -2,8 +2,6 @@
 layout: page
 permalink: /vacancies/
 title: Vacancies
-description:
-years: 
 nav: true
 nav_order: 3
 ---
