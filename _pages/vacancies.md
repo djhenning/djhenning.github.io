@@ -20,4 +20,4 @@ The successful applicant will assist in day-to-day field management, help to man
 - Master's degree in economics or related disciplines, or equivalent knowledge
 - Ability to carry out independent quantitative research, including substantial experience with econometrics and programming software (preferably STATA/R/Python)
 
-Please see the [Job Description](https://djhenning.github.io/assets/vacancies/Field_RA_Malawi.pdf) for further information. If you have any questions reach out to myself ([david.henning@economics.ox.ac.uk](mailto:david.henning@economics.ox.ac.uk)) or our Research Manager, Apoorva, at [apoorva.limaye@economics.ox.ac.uk](mailto:apoorva.limaye@economics.ox.ac.uk).
+Please see the [**Job Description**](https://djhenning.github.io/assets/vacancies/Field_RA_Malawi.pdf) for further information. If you have any questions reach out to myself ([david.henning@economics.ox.ac.uk](mailto:david.henning@economics.ox.ac.uk)) or our Research Manager, Apoorva, at [apoorva.limaye@economics.ox.ac.uk](mailto:apoorva.limaye@economics.ox.ac.uk).
