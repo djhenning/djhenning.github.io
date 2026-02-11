@@ -5,7 +5,7 @@ title: Vacancies
 description:
 years: 
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 #### <ins>Field Research Associate in Malawi (Blantyre)</ins>
 The Oxford Centre for Macro-Experimental Development is hiring for a position based in Blantyre Malawi. The group, based at Oxford University, focuses on combining large-scale randomized controlled trials with more structural approaches to economics to better understand the challenges and impacts of large-scale development interventions.
