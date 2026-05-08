@@ -9,7 +9,7 @@ nav_order: 2
 ---
 #### <ins>Working Papers</ins>
 <div class="publications">
-    {% bibliography -f workingpapers --sort_by year --order descending %}
+    {% bibliography -f workingpapers %}
 </div>
 
 <br>
