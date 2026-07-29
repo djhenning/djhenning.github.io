@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# Preserve binary files without line-ending conversion.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
