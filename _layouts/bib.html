@@ -145,6 +145,11 @@
           Revision requested at the <em><b>{{ entry.rr }}</b></em>
         </div>
       {% endif %}
+      {% if entry.ca %}
+        <div class="ca">
+          Conditionally accepted at the <em><b>{{ entry.ca }}</b></em>
+        </div>
+      {% endif %}
 
       <!-- Journal/Book title and date -->
       {% if entry.type == "article" -%}
